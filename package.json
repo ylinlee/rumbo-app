@@ -1,0 +1,14 @@
+{
+  "name": "rumbo",
+  "version": "0.0.1",
+  "description": "Prueba rumbo",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rumbo"
+  ],
+  "author": "Yichuan Lin Lee",
+  "license": "ISC"
+}
