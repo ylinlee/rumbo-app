@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Yichuan Lin Lee">
+    <title>lastminute</title>
+    <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+<body class="rumbo-font">
+    </head>
+    <header class="main-header"><img src="./imgs/lmn-logo-white.svg" /></header>
+    <div id="content" class="content">
+        <div>
+            <nav id="list">
+            </nav>
+        </div>
+    </div>
+    <script type="text/javascript" src="HotelDetail/HotelDetail.js"></script>
+    <script type="text/javascript" src="HotelListItem/HotelListItem.js"></script>
+    <script type="text/javascript" src="HotelMain/HotelMain.js"></script>
+    <script type="text/javascript">        
+        var controller = new HotelMainCtrl('content','list');       
+    </script>
+</body>
+
+</html>

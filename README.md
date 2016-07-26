@@ -35,3 +35,21 @@ Support for IE is not required.
 ## Testing
 Tests are part of this test, so add either unit or functional tests to the application. For this part, feel free to use any library or
 framework.
+
+## Install project develop dependencies
+
+Type this command on project root path:
+
+```sh
+$ npm install
+```
+
+## Run develop express server
+
+Type this command on project root path:
+
+```sh
+$ grunt
+```
+
+Open the browser and go to: http://localhost:3000
